@@ -1,13 +1,7 @@
  # MATLAB OCR script for storing measured data from HP_4284 impedance analyzser
 
  ## DESCRIPTION:
-       The function takes a screenshot of a webcam filming the display of
-       the Impedance analyser, crops the image to the ROI and uses OCR to
-       calculate the impedance.
-       This function is optimized for impedance measurement but can be
-       modified for any other measuremimshent. It only recognises the
-       characters: '0123456789.kMQ-' and must be trained with the 
-       ocrTrainer to recognise other characters
+       The function takes a screenshot of a webcam filming the display of the Impedance analyser, crops the image to the ROI and uses OCR to calculate the impedance. This function is optimized for impedance measurement but can be modified for any other measuremimshent. It only recognises the characters: '0123456789.kMQ-' and must be trained with the ocrTrainer to recognise other characters.
 
  ## IMPORTANT NOTE:
        For best results the display should not reflect (e.g. cover it from
