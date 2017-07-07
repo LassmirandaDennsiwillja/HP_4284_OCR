@@ -1,7 +1,6 @@
- readImpedance: Return the impedance measured by the HP_4284 impedance
- analyzser
+ # MATLAB OCR script for storing measured data from HP_4284 impedance analyzser
 
- DESCRIPTION:
+ ## DESCRIPTION:
        The function takes a screenshot of a webcam filming the display of
        the Impedance analyser, crops the image to the ROI and uses OCR to
        calculate the impedance.
@@ -10,7 +9,7 @@
        characters: '0123456789.kMQ-' and must be trained with the 
        ocrTrainer to recognise other characters
 
- IMPORTANT NOTE:
+ ## IMPORTANT NOTE:
        For best results the display should not reflect (e.g. cover it from
        direct light)
        If returned values are from/empty check if the image can be 
@@ -21,17 +20,17 @@
        Depending on the webcam, the OCR maybe need new calibration with
        ocrTrainer
 
- INPUTS:
+ ## INPUTS:
        webcam: A webcam which is opened in MATLAB and filing the display
        x1, y1: Upper left corner of ROI
        x2, y2: Down right corner of ROI
         
- OUTPUTS:
+ ## OUTPUTS:
        impedance: The measured impedance
 
- FILE DEPENDENCIES:
+ ## FILE DEPENDENCIES:
        tessdata/HP_4284A.traineddata: This is the language file which
        stores the calibration for the screen font
 
- AUTHOR:
+ ## AUTHOR:
        Linus Reitmayr, University College London, 2017  
