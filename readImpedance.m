@@ -14,7 +14,7 @@ function [ impedance ] = readImpedance(webcam,y1,y2,x1,x2)
 %       The function also recognised the exponent of the unit (e.g. Kilo, Mega...)
 %       Here only Kilo and Mega is implemented, for more the if statement must be
 %       extended and the character must be trained with the ocrTrainer to 
-%       be recognised by the cript
+%       be recognised by the script
 %
 % IMPORTANT NOTE:
 %       For best results the display should not reflect (e.g. cover it from
