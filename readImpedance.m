@@ -62,16 +62,16 @@ function [ impedance ] = readImpedance(webcam,y1,y2,x1,x2)
     impedance = text{1};
     unit = text{2};
     
-%     if contains(unit(1,:),'k')==1
-%         impedance(1) = impedance(1)*1e3;
-%     elseif contains(unit(1,:),'M')==1
-%         impedance(1) = impedance(1)*1e6;
-%     end
-% 
-%     if contains(unit(2,:),'k')==1
-%         impedance(2) = impedance(2)*1e3;
-%     elseif contains(unit(2,:),'M')==1
-%         impedance(2) = impedance(2)*1e6;
-%     end
+     if contains(unit(1,:),'k')==1
+         impedance(1) = impedance(1)*1e3;
+     elseif contains(unit(1,:),'M')==1
+         impedance(1) = impedance(1)*1e6;
+     end
+ 
+     if contains(unit(2,:),'k')==1
+         impedance(2) = impedance(2)*1e3;
+     elseif contains(unit(2,:),'M')==1
+         impedance(2) = impedance(2)*1e6;
+     end
     
 end
