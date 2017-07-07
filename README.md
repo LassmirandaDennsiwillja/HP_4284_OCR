@@ -9,6 +9,11 @@
        characters: '0123456789.kMQ-' and must be trained with the 
        ocrTrainer to recognise other characters.
 
+The function also recognised the exponent of the unit (e.g. Kilo, Mega...)
+       Here only Kilo and Mega is implemented, for more the if statement must be
+       extended and the character must be trained with the ocrTrainer to 
+       be recognised by the script.
+
  ## IMPORTANT NOTE:
 For best results the display should not reflect (e.g. cover it from
        direct light) and no dirt must be on the screen
