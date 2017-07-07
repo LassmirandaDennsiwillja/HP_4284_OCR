@@ -21,15 +21,15 @@ The Image might be mirrored, which must be adjusted manually
        the ocrTrainer command
 
  ## INPUTS:
-webcam: A webcam which is opened in MATLAB and filming the display
-x1, y1: Upper left corner of ROI
-x2, y2: Down right corner of ROI
+- webcam: A webcam which is opened in MATLAB and filming the display
+- x1, y1: Upper left corner of ROI
+- x2, y2: Down right corner of ROI
         
  ## OUTPUTS:
-impedance: The measured impedance
+- impedance: The measured impedance
 
  ## FILE DEPENDENCIES:
-tessdata/HP_4284A.traineddata: This is the language file which stores the calibration for the screen font
+- tessdata/HP_4284A.traineddata: This is the language file which stores the calibration for the screen font
 
  ## AUTHOR:
-Linus Reitmayr, University College London, 2017  
+- Linus Reitmayr, University College London, 2017  
