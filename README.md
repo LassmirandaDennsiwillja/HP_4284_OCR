@@ -13,7 +13,7 @@
        For best results the display should not reflect (e.g. cover it from
        direct light) and no dirt must be on the screen
        If returned values are wrong/empty check if the image can be 
-       correctly recognized -> visit: https://uk.mathworks.com/help/vision/examples/recognize-text-using-optical-character-recognition-ocr.html
+       correctly recognized -> visit: [Matlab website](https://uk.mathworks.com/help/vision/examples/recognize-text-using-optical-character-recognition-ocr.html)
 	   
        The Image might be mirrored, which must be adjusted manually
        (uncomment the line you need)
