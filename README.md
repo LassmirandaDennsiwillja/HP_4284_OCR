@@ -14,7 +14,8 @@
        For best results the display should not reflect (e.g. cover it from
        direct light)
        If returned values are from/empty check if the image can be 
-       correctly recognized -> visit: https://uk.mathworks.com/help/vision/examples/recognize-text-using-optical-character-recognition-ocr.html 
+       correctly recognized -> visit: https://uk.mathworks.com/help/vision/examples/recognize-text-using-optical-character-recognition-ocr.html
+	   
        The Image might be mirrored, which must be adjusted manually
        (uncomment the line you need)
        Depending on the webcam, the OCR maybe need new calibration with
